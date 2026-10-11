@@ -1,0 +1,19 @@
+{
+  "name": "BJCP 简体中文网考模拟题库",
+  "short_name": "BJCP刷题",
+  "description": "46道原创模拟题；支持错题本、限时模拟和进度保存",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f9",
+  "theme_color": "#102b36",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
