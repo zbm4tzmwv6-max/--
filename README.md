@@ -1,6 +1,6 @@
-# BJCP 简体中文网考练习站点 V1.0
+# 路人甲的 BJCP 备考手册 · 500题 V1.1
 
-500道原创中文模拟题，含啤酒风格、感官异味、酿造工艺和评审规则。非BJCP官方真题/题库。
+路人甲个人学习版本。500道原创中文模拟题，含啤酒风格、感官异味、酿造工艺和评审规则。非BJCP官方真题/题库。题目与答题逻辑沿用V1.0；V1.1仅更新个人品牌展示，保留旧错题和练习进度。
 
 ## iPhone 推荐使用方式
 1. 首先在仓库 Settings → Pages → Build and deployment → Source 选择 “Deploy from a branch”，branch 选择 “main”，目录选择 “/(root)”，点击 Save。
