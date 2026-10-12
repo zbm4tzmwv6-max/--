@@ -1,7 +1,7 @@
 {
-  "name": "BJCP 简体中文网考模拟题库 · 500题",
-  "short_name": "BJCP刷题",
-  "description": "500道原创简体中文模拟题，支持180题60分钟模拟、答案解析和错题复练",
+  "name": "路人甲的 BJCP 备考手册 · 500题",
+  "short_name": "路人甲·BJCP",
+  "description": "路人甲个人练习版：500道简体中文原创模拟题，覆盖风格、感官、酿造和评审规则。非BJCP官方产品。",
   "lang": "zh-CN",
   "start_url": "./index.html",
   "scope": "./",
