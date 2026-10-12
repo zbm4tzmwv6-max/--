@@ -1,7 +1,7 @@
 {
-  "name": "BJCP 简体中文网考模拟题库",
+  "name": "BJCP 简体中文网考模拟题库 · 500题",
   "short_name": "BJCP刷题",
-  "description": "46道原创模拟题；支持错题本、限时模拟和进度保存",
+  "description": "500道原创简体中文模拟题，支持180题60分钟模拟、答案解析和错题复练",
   "lang": "zh-CN",
   "start_url": "./index.html",
   "scope": "./",
