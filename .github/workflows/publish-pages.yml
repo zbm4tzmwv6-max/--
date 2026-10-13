@@ -1,0 +1,41 @@
+name: Publish BJCP Site
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - icon.svg
+      - manifest.webmanifest
+      - service-worker.js
+      - .github/workflows/publish-pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: bjcp-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
