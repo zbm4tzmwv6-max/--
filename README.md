@@ -1,21 +1,25 @@
-# 路人甲的 BJCP 备考手册 · 500题 V1.1
+# 路人甲的 BJCP 备考手册 V2.0
 
-路人甲个人学习版本。500道原创中文模拟题，含啤酒风格、感官异味、酿造工艺和评审规则。非BJCP官方真题/题库。题目与答题逻辑沿用V1.0；V1.1仅更新个人品牌展示，保留旧错题和练习进度。
+**来源优先**：以用户提供的《BJCP400题库.docx》为唯一原题来源；原始400题编号，删除52道重复/近义题，共348道独立原题。原500题保存在 `archive/500题_V1.1.html`，不再进入新版。
 
-## iPhone 推荐使用方式
-1. 首先在仓库 Settings → Pages → Build and deployment → Source 选择 “Deploy from a branch”，branch 选择 “main”，目录选择 “/(root)”，点击 Save。
-2. 站点生成后，iPhone Safari 访问 https://zbm4tzmwv6-max.github.io/--/ 。
-3. Safari 分享 → 添加到主屏幕。
+- 314道原文答案（未全部独立验证）。
+- 5道按2021年风格指南修订的答案：第7、11、40、61、329题。
+- 29道风险题暂停自动计分；仍可在网站「待核验」查看来源答案及问题说明。
+- 正式模拟抽取180题，60分钟，按20制度、92风格、36感官、32工艺的近似模块配比。练习难度及题型不等于官方真实考试。
+- 所有记录仅保存在浏览器本机，不跨设备同步。此项目独立于BJCP，不代表BJCP官方题库。
 
-> 目前尚未核实 Pages 已启用，因此 GitHub Pages URL 只有在上述设置完成且部署成功后才能使用。
+## iPhone
 
-## 临时在线预览
+临时网页预览：
 https://raw.githack.com/zbm4tzmwv6-max/--/main/index.html
 
-该第三方服务每24小时可能要求点击一次安全确认页，不适合作为长期主屏幕版。用户可在个人学习期间临时使用。
+在GitHub Pages启用后正式网址预计：
+https://zbm4tzmwv6-max.github.io/--/
 
-## 练习功能
-- 500题（判断/单选/多选）随机抽题，180题限时60分钟。
-- 逐题解析、自动成绩统计、错题复练、分类专项。
-- 不上传成绩或个人数据；练习数据保存在浏览器的 localStorage 中。不同域名站点、不同浏览器之间的进度不会自动同步。
-- 离线缓存依赖托管平台支持 HTTPS、同源 Service Worker 与浏览器缓存。首次访问需要联网。
+GitHub Pages设置：Settings → Pages → Deploy from a branch → main → /(root) → Save。
+
+网站部署成功后使用Safari打开并点击“分享 → 添加到主屏幕”。
+
+官方参考：
+https://www.bjcp.org/exam-certification/program/studying/online-beer-exam-study-guide/
+https://www.bjcp.org/bjcp-style-guidelines/
